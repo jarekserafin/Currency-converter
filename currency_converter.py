@@ -17,7 +17,7 @@ if default_currency != "eur":
 while True:
     exchange_rate = None
     result = None
-    currency_to = input("Please enter currency you want to exchange " + default_currency.upper() + "for (click Enter "
+    currency_to = input("Please enter currency you want to exchange " + default_currency.upper() + " for (click Enter "
                                                                                                    "to break): ")
     if currency_to == "":
         break

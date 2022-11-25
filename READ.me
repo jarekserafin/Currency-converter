@@ -1,0 +1,20 @@
+Hello :)
+This program allows user find out what amount of designed currency is he able to buy for amount his currency.
+It takes current data from http://www.floatrates.com website. Exchange rates for the most populars currencies (eur and
+usd) are stored in cache for better performance. Used exchange pairs are appended to cache as well.
+
+Example:
+    Please enter currency you own (code compatible with ISO 4217): pln
+    Please enter currency you want to exchange PLN for (click Enter to break): hnl
+    Please enter amount of PLN you want to exchange: 10
+    Checking the memory
+    Sorry, but it is not in the cache!
+    You received 54.32 HNL.
+    Please enter currency you want to exchange PLN for (click Enter to break): usd
+    Please enter amount of PLN you want to exchange: 18
+    Checking the memory
+    Oh! It is in the cache (cool)!
+    You received 3.99 USD.
+    Please enter currency you want to exchange PLN for (click Enter to break):
+
+    Process finished with exit code 0
